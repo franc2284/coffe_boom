@@ -2,17 +2,22 @@ body{
     margin: 0;
     background-color: #fff;
 }
+
 .container {
     width: 1600px;
+    height: auto;
     margin: 0 auto;
     display: flex;
 }
+
 .left-block {
     position: relative;
-    width: 50%;
+    width: 30%;
     height: 693px;
     overflow:hidden;
+    margin: 0px;
 }
+
 .left-block img {
     position: absolute;
     inset: 0;
@@ -22,10 +27,11 @@ body{
     object-position: left center;
     display: block;
 }
+
 .text-block {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 0px;
     background-color: black;
     color: white;
     padding: 10px 15px;
@@ -38,7 +44,31 @@ body{
     border-radius: 3px;
     z-index: 2;
 }
+
 .right-block {
-    width: 50%;
+    width: 75%;
     background-color: white;
+    margin: 0px;
+}
+
+.center-text{
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px 60px 10px 25px;
+    width: 400px;
+    border: 1px solid blue;
+    z-index: 3;
+    text-align: left;
+    max-width: 480px;
+}
+.center-text h2 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.3;
+  margin: 0;
 }
