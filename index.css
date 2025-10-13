@@ -1,66 +1,72 @@
-body{
-    margin: 0;
-    background-color: #fff;
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-  width:1600px;
-  margin:0 auto;
-  display:flex;
-  position:relative;
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  position: relative; /* ключевой момент */
 }
 
 .left-block {
-  position:relative;
-  width:50%;
-  height:720px;
-  overflow:hidden;
+  position: relative;
+  width: 50%;
+  height: 720px;
+  overflow: hidden;
 }
 
 .left-block img {
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  object-position:left center;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
 }
 
 .text-block {
-  position:absolute;
-  left:28px;
-  bottom:28px;
-  z-index:2;
-  background:#000;
-  color:#fff;
-  padding:12px 18px;
-  border-radius:8px;
-  font:700 14px/1.2 Arial, sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.3px;
+  position: absolute;
+  left: 28px;
+  bottom: 28px;
+  z-index: 2;
+  background: #000;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
 }
 
 .right-block {
-    width: 50%;
-    background-color: blue;
+  width: 50%;
+  background: #fff;
 }
 
-.center-text{
-  position:absolute;
-  top:18%;                    
-  left:55%;                     
-  transform:translate(-50%, 0); 
-  z-index:3;                    
-  max-width:520px;
-  background:#fff;
-  border:2px solid #1e6fdb;
-  border-radius:8px;
-  padding:22px 28px;
-  box-shadow:0 8px 24px rgba(0,0,0,.12);
-  text-align:left;
+/* вот это — самое главное, чего у тебя не хватает */
+.center-text {
+  position: absolute;
+  top: 45%;             /* примерно посередине */
+  left: 60%;            /* немного правее */
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 2px solid #007BFF; /* синяя рамка */
+  border-radius: 8px;
+  padding: 25px 35px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  text-align: left;
+  z-index: 5;
+  max-width: 520px;
 }
+
 .center-text h2 {
-  margin:0;
-  font:800 36px/1.25 Inter, Arial, sans-serif;
-  color:#111;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.3;
 }
