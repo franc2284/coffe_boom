@@ -8,7 +8,7 @@ body {
   width: 1600px;
   margin: 0 auto;
   display: flex;
-  position: relative; /* ключевой момент */
+  position: relative;
 }
 
 .left-block {
@@ -47,14 +47,13 @@ body {
   background: #fff;
 }
 
-/* вот это — самое главное, чего у тебя не хватает */
 .center-text {
   position: absolute;
-  top: 45%;             /* примерно посередине */
-  left: 60%;            /* немного правее */
+  top: 45%;             
+  left: 60%;           
   transform: translate(-50%, -50%);
   background: #fff;
-  border: 2px solid #007BFF; /* синяя рамка */
+  border: 2px solid #007BFF; 
   border-radius: 8px;
   padding: 25px 35px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
