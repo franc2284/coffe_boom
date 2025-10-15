@@ -10,27 +10,47 @@ body {
 
 .container {
     width: 1600px;
+    height: 1000px;
     margin: 0;
     display: flex;
     position: relative;
 }
 
-.left-block {
+.left-block-img{
     width: 648px;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-
-.left-block img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: left center;
+    height: 1107.7012939453125px;
+    opacity: 1;
+    top: -54px;
+    object-fit: contain;
     display: block;
 }
+
 
 .right-block {
     flex: 1;
     background-color: #fff;
+}
+
+.text-block-down{
+    position: absolute;
+    left: 0px;
+    top: 880px;
+    width: 296px;
+    height: 78px;
+    background: #000000;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.text-block-down p {
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-family: 'Ubuntu';
 }
