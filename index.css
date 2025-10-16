@@ -57,19 +57,20 @@ body {
 
 .text-block-up {
     position: absolute;
+    box-sizing: border-box;
     width: 744px;
     height: 184px;
     top: 52px;
     left: 500px;
     background: #FFFFFF;
     z-index: 3;
-    display: flex;
     align-items: center;
-    padding-left: 55px;
+    padding:24px 55px;
     border: 3px solid blue;
 }
 
 .text-block-up p {
+    display: flex;
     color: #000000;
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -77,4 +78,32 @@ body {
     font-size: 48px;
     line-height: 57.6px;
     margin: 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating .star{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.rating .star2{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-left: 12px;
+}
+
+.rating .votes {
+    display: block;
+    margin-left: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
 }
