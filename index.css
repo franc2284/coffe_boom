@@ -147,3 +147,20 @@ body {
     color: #FFA41B;
 }
 
+.text-cooked {
+    position: absolute;
+    width: 712px;
+    height: 95px;
+    top: 300px;
+    left: 735px;
+}
+
+.text-cooked p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 31.4px;
+    letter-spacing: 0%;
+    color: #000000;
+}
