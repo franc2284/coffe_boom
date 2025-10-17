@@ -164,3 +164,43 @@ body {
     letter-spacing: 0%;
     color: #000000;
 }
+
+.eda {
+    position: absolute;
+    top: 439px;
+    left: 735px;
+}
+
+.eda h3 {
+    margin: 0 0 16px 0;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
+.eda ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.eda li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #000000CC;
+}
+
+.eda li img {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+}
